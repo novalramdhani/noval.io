@@ -1,5 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+
 export default function App() {
   return (
-      <div className="text-sky-500 underline text-lg font-sans text-center justify-center mt-10">Hello from React.js!</div>
+      <div>
+        <Routes>
+            <Route path="/" element={<Home />}>Home</Route>
+            <Route path="/projects" element={<Projects />}>Projects</Route>
+        </Routes>
+      </div>
   );
 }
