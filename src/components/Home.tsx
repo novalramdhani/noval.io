@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 import url from "../config/url.config";
 import me from '../me.png';
 import Menu from "./Menu";
+import Container from "./Container";
 
 export default function Home() {
     return (
         <>
-        <div className="max-w-xl mx-auto flex flex-col justify-center text-center px-4">
+        <Container>
             <div>
               <img src={me} className="shadows shadow-purple-400/20 bg-contain mx-auto p-1 rounded-full" alt="The picture of me" loading="lazy" width="100" height="100" />
             </div>
@@ -20,7 +21,7 @@ export default function Home() {
                 </p>
                 <Menu />
             </div>
-        </div>
+        </Container>
       </>
     );
 }

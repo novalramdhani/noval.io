@@ -1,5 +1,9 @@
+import Container from "./Container";
+
 export default function Projects() {
     return (
-        <div></div>
+        <Container>
+            <h1 className="text-white font-bold uppercase">All my projects</h1>
+        </Container>
     );
 }
