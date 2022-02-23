@@ -1,5 +1,5 @@
 type LayoutProps = {
-    children: any | never
+    children: any
 }
     
 export default function Layout({children}: LayoutProps) {
