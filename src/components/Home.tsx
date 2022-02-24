@@ -12,7 +12,7 @@ export default function Home() {
               <img src={me} className="shadows shadow-purple-400/20 bg-contain mx-auto p-1 rounded-full" alt="The picture of me" loading="lazy" width="100" height="100" />
             </div>
             <div className="leading-loose text-lg">
-                  Hi 👋, I'm Noval Ramdhani. Web programming enthusiast, experience with <SocialMediaLink url={url.frameworks.laravel} name="Laravel" /> and <SocialMediaLink url={url.frameworks.rubyonrails} name="Rails" />.
+                  Hi 👋, I'm Noval Ramdhani. Web programming enthusiast, Big fan of <SocialMediaLink url={url.frameworks.laravel} name="Laravel" />, <SocialMediaLink url={url.frameworks.rails} name="Rails" /> and <SocialMediaLink url={url.frameworks.react} name="React" />.
                 <p className="mt-4">
                   I have social media like <SocialMediaLink url={url.instagram} name="Instagram" />, <SocialMediaLink url={url.twitter} name="Twitter" /> or <SocialMediaLink url={url.showwcase} name="Showwcase" />. If you want to know my activities on the internet or you can also follow my daily writing articles on <SocialMediaLink url={url.devto} name="Dev.to" />.
                 </p>

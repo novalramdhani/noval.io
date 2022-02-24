@@ -6,7 +6,8 @@ const url = {
     devto: "https://dev.to/novalramdhani",
     frameworks: {
         laravel: "https://laravel.com",
-        rubyonrails: "https://rubyonrails.org"
+        rails: "https://rubyonrails.org",
+        react: "https://reactjs.org"
     }
 }
 
