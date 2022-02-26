@@ -12,6 +12,8 @@ export default function Projects() {
             <Card source="https://github.com/novalramdhani/Miolica" status="development" title="Miolica" description="An e-commerce website uses Laravel API, Sanctum API Token, PHP, GraphQL, PostgreSQL as the backend and React Typescript, Redux, TailwindCSS as the frontend. Until implementing PWA (Progressive Web Apps)." />
             <Card source="https://github.com/novalramdhani/Ani-Cast" status="development" title="Ani Cast" description="A anime shows website created using Laravel and for styling using TailwindCSS, the api is taken from the Jikan API." />
             <Card source="https://github.com/novalramdhani/Social-Network" status="development"title="Social Network" description="A simple social media website using Laravel, MySQL and TailwindCSS. Features Authentication, account settings, following, follwers, unfollowing, CRUD tweets, likes, unlike tweets and comments." />
+            <Card source="https://github.com/novalramdhani/Luv-Letter" status="development" title="Luv Letter" description="A todo list website created with Rails, PostgreSQL as the backend, React, Tailwind CSS as the frontend. And consists of features such as authentication, todo list crud and others." />
+            <Card link="https://yapenhasboediluhur.sch.id" status="production" title="Boedi Luhur High School" description="A school website from Indonesia, Boedi Luhur is a school foundation." />
             <Menu />
         </Container>
     );

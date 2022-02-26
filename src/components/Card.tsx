@@ -5,7 +5,7 @@ type CardProps = {
     title: string,
     description?: string
     status?: string
-    source: string
+    source?: string
 }
 
 export default function Card(
