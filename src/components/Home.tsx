@@ -1,8 +1,6 @@
-import url from "../config/url.config";
 import me from '../me.png';
 import Menu from "./Menu";
 import Container from "./Container";
-import SocialMediaLink from "./SocialMediaLink";
 
 export default function Home() {
     return (
@@ -13,13 +11,13 @@ export default function Home() {
             </div>
             <div className="leading-loose">
                 <p className="mt-4">
-                  Hi 👋, I'm Noval Ramdhani. Web programming enthusiast, Big fan of <SocialMediaLink url={url.frameworks.laravel} name="Laravel" />, <SocialMediaLink url={url.frameworks.rails} name="Rails" /> and <SocialMediaLink url={url.frameworks.react} name="React" />.
+                  Hi 👋, I'm Noval Ramdhani. Web programming enthusiast, Loving full stack technologies.
                 </p>
                 <p className="mt-4">
-                  I have social media like <SocialMediaLink url={url.instagram} name="Instagram" /> and <SocialMediaLink url={url.twitter} name="Twitter" /> If you want to know my activities on the internet or you can also follow my daily writing articles on <SocialMediaLink url={url.devto} name="DEV" />.
+                  I have social media like <a href="https://instagram.com/novallrmdhni" className="text-sky-400 underline">Instagram</a> and <a href="https://twitter.com/novallramdhani" className="text-sky-400 underline">Twitter</a> If you want to know my activities on the internet or you can also follow my daily writing articles on <a href="https://dev.to/novalramdhani" className="text-sky-400 underline">DEV</a>.
                 </p>
                 <p className="mt-4">
-                  You can find all my programming lessons on <SocialMediaLink url={url.github} name="Github" />.
+                  You can find all my programming lessons on <a href="https://github.com/novalramdhani" className="text-sky-400 underline">Github</a>.
                 </p>
                 <Menu />
             </div>
