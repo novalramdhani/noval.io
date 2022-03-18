@@ -1,7 +1,7 @@
 # Personal website
 My website portfolio build using React.js, Typescript and Tailwind.
 
-## Live Preview
+## Live preview
 [novalll.vercel.app](https://novalll.vercel.app)
 
 ## How to contribute
