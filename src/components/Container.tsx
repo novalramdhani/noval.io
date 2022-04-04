@@ -1,10 +1,13 @@
-type ContainerProps = {
-    children: any
-}
+import React from "react";
 
-export default function Container({children}: ContainerProps) {
+type ContainerProps = {
+    children: React.ReactNode;
+    customMaxWidth?: string;
+};
+
+export default function Container({ children, customMaxWidth }: ContainerProps) {
     return (
-        <div className="max-w-xl mx-auto flex flex-col justify-center text-center px-4">
+        <div className={`w-full mx-auto flex flex-col justify-center text-center px-4 ${customMaxWidth || "max-w-xl"}`}>
             {children}
         </div>
     );

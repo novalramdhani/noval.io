@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Override Daisy-ui card width */
+.custom-card-width {
+    @apply w-full;
+}
+
+@media screen and (min-width: 678px) {
+    .custom-card-width {
+        max-width: calc(50% - 0.5rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .custom-card-width {
+        max-width: calc(100% / 3 - 0.75rem);
+    }
+}
