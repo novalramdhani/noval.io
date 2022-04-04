@@ -20,12 +20,6 @@ export default function Projects() {
                     sourceCodeUrl="https://github.com/novalramdhani/Ani-Cast"
                     previewUrl="http://anicast.herokuapp.com"
                 />
-                <Card
-                    title="Ani Cast"
-                    description="Anime Shows Web App"
-                    sourceCodeUrl="https://github.com/novalramdhani/Ani-Cast"
-                    previewUrl="http://anicast.herokuapp.com"
-                />
             </div>
 
             <Menu />
