@@ -5,4 +5,4 @@ My website portfolio build using React.js, Typescript and Tailwind.
 [Click here.](https://novalll.vercel.app)
 
 ## License
-This project licenced under of [MIT LICENSE]().
+This project licenced under of [MIT LICENSE](https://opensource.org/licenses/MIT).
