@@ -20,6 +20,11 @@ export default function Projects() {
                     sourceCodeUrl="https://github.com/novalramdhani/Ani-Cast"
                     previewUrl="http://anicast.herokuapp.com"
                 />
+                <Card
+                    title="Social Network"
+                    description="Social Media Web App"
+                    sourceCodeUrl="https://github.com/novalramdhani/Social-Network"
+                />
             </div>
 
             <Menu />
