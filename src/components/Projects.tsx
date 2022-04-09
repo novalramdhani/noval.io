@@ -5,7 +5,7 @@ import Menu from "./Menu";
 export default function Projects() {
     return (
         <Container customMaxWidth="max-w-[1220px]">
-            <h1 className="text-white font-bold text-lg uppercase mt-5">My projects</h1>
+            <h1 className="text-white font-bold text-lg uppercase mt-5">Projects</h1>
 
             <div className="w-full flex flex-wrap flex-col sm:flex-row justify-center items-center gap-4 mt-5">
                 <Card
