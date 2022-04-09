@@ -17,10 +17,10 @@ export default function Card({
                 <h2 className="card-title">{title}</h2>
                 <p className="text-left">{description}</p>
                 <div className="card-actions justify-end mt-5">
-                    <a href={previewUrl} className="btn btn-primary">
+                    <a href={previewUrl} className="btn btn-sm btn-primary">
                         Live Preview
                     </a>
-                    <a href={sourceCodeUrl} className="btn text-white">
+                    <a href={sourceCodeUrl} className="btn btn-sm text-white">
                         Source Code
                     </a>
                 </div>
