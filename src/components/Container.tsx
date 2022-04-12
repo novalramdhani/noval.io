@@ -1,9 +1,4 @@
-import React from "react";
-
-type ContainerProps = {
-    children: React.ReactNode;
-    customMaxWidth?: string;
-};
+import type { ContainerProps } from "../types/ContainerProps";
 
 export default function Container({ children, customMaxWidth }: ContainerProps) {
     return (

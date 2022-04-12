@@ -1,9 +1,4 @@
-type CardProps = {
-    title: string;
-    description?: string;
-    previewUrl?: string;
-    sourceCodeUrl?: string;
-};
+import type { CardProps } from "../types/CardProps";
 
 export default function Card({
     title,

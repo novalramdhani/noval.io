@@ -1,8 +1,4 @@
-import React from "react";
-
-type LayoutProps = {
-    children: React.ReactChild;
-};
+import type { LayoutProps } from "../types/LayoutProps";
 
 export default function Layout({ children }: LayoutProps) {
     return (
