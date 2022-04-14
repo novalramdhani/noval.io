@@ -2,7 +2,7 @@
 import me from "../images/me.png";
 import Menu from "./Menu";
 import Container from "./Container";
-
+ 
 export default function Home() {
     return (
         <Container>

@@ -25,6 +25,11 @@ export default function Projects() {
                     description="Social Media Web App"
                     sourceCodeUrl="https://github.com/novalramdhani/Social-Network"
                 />
+                <Card
+                    title="Blog App"
+                    description="Blog Web App"
+                    sourceCodeUrl="https://github.com/novalramdhani/blog"
+                />
             </div>
 
             <Menu />
