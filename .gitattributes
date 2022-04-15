@@ -1,0 +1,10 @@
+*text=auto
+
+*.jsx diff=js
+*.tsx diff=ts
+*.md diff=markdown
+*.html diff=html
+
+yarn.lock export-ignore
+.github/ export-ignore
+tsconfig.json export-ignore
