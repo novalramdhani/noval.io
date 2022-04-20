@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import me from "../images/me.png";
+import me from "../assets/img/me.png";
 import Menu from "./Menu";
 import Container from "./Container";
  
