@@ -36,15 +36,7 @@ export default function Home() {
                     >
                         Twitter
                     </a>{" "}
-                    If you want to know my activities on the internet or you
-                    can also follow my daily writing articles on{" "}
-                    <a
-                        href="https://dev.to/novalramdhani"
-                        className="text-sky-400 underline"
-                    >
-                        DEV
-                    </a>
-                    .
+                    If you want to know my activities on the internet.
                 </p>
                 <p className="mt-4">
                     You can find all my programming lessons on{" "}
