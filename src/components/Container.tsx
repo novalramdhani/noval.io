@@ -1,4 +1,4 @@
-import type { ContainerProps } from "../types/ContainerProps";
+import type { ContainerProps } from "@/types/ContainerProps";
 
 export default function Container({ children, customMaxWidth }: ContainerProps) {
     return (
