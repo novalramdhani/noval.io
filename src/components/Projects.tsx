@@ -15,8 +15,8 @@ export default function Projects() {
                     previewUrl="http://movie-cast.herokuapp.com"
                 />
                 <Card
-                    title="Ani Cast"
-                    description="Ani Cast is a simple anime movie application using a TALL stack with the integration of the jikan API."
+                    title="AnimeKu"
+                    description="AnimeKu is a simple anime movie application using a TALL stack with the integration of the jikan API."
                     sourceCodeUrl="https://github.com/novalramdhani/Ani-Cast"
                     previewUrl="http://anicast.herokuapp.com"
                 />
@@ -24,16 +24,6 @@ export default function Projects() {
                     title="Social Network"
                     description="Social Network is a social media web app build using Laravel, PostgreSQL, Tailwind CSS with include the API."
                     sourceCodeUrl="https://github.com/novalramdhani/Social-Network"
-                />
-                <Card
-                    title="Blog App"
-                    description="A simple blog application using Laravel, PostgreSQL, Bootstrap CSS with feature CRUD, comment and more."
-                    sourceCodeUrl="https://github.com/novalramdhani/blog"
-                />
-                <Card
-                    title="Miolica"
-                    description="Miolica is an simple e-commerce application that uses React.js as the frontend and Laravel as the backend."
-                    sourceCodeUrl="https://github.com/novalramdhani/Miolica"
                 />
             </div>
 
