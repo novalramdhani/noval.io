@@ -10,7 +10,7 @@ export default function Projects() {
             <div className="w-full flex flex-wrap flex-col sm:flex-row justify-center items-center gap-4 mt-5">
                 <Card
                     title="Movie Cast"
-                    description="Movie Cast is movie film."
+                    description="Movie Cast is movie film web apps."
                     sourceCodeUrl="https://github.com/novalramdhani/Movie-Cast"
                     previewUrl=""
                 />
