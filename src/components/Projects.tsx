@@ -10,7 +10,7 @@ export default function Projects() {
             <div className="w-full flex flex-wrap flex-col sm:flex-row justify-center items-center gap-4 mt-5">
                 <Card
                     title="Movie Cast"
-                    description="Ani Cast is a simple movie shows application using a TALL stack with the integration of the tmdb.org API."
+                    description="Movie Cast is movie film."
                     sourceCodeUrl="https://github.com/novalramdhani/Movie-Cast"
                     previewUrl=""
                 />
