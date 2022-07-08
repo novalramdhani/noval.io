@@ -12,18 +12,7 @@ export default function Projects() {
                     title="Movie Cast"
                     description="Ani Cast is a simple movie shows application using a TALL stack with the integration of the tmdb.org API."
                     sourceCodeUrl="https://github.com/novalramdhani/Movie-Cast"
-                    previewUrl="http://movie-cast.herokuapp.com"
-                />
-                <Card
-                    title="AnimeKu"
-                    description="AnimeKu is a simple anime movie application using a TALL stack with the integration of the jikan API."
-                    sourceCodeUrl="https://github.com/novalramdhani/Ani-Cast"
-                    previewUrl="http://anicast.herokuapp.com"
-                />
-                <Card
-                    title="Social Network"
-                    description="Social Network is a social media web app build using Laravel, PostgreSQL, Tailwind CSS with include the API."
-                    sourceCodeUrl="https://github.com/novalramdhani/Social-Network"
+                    previewUrl=""
                 />
             </div>
 
