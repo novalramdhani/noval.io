@@ -18,7 +18,7 @@ export default function Home() {
             </div>
             <div className="leading-loose">
                 <p className="mt-4">
-                    Hello, I'm Noval Ramdhani. Software Engineering, Web programming enthusiast and
+                    Hello, I'm Noval Ramdhani an software engineering, Web programming enthusiast and
                     Loving back end technologies.
                 </p>
                 <p className="mt-4">
