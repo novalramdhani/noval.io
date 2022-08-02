@@ -12,7 +12,7 @@ export default function Projects() {
                     title="Movie Cast"
                     description="Movie Cast is movie film web apps."
                     sourceCodeUrl="https://github.com/novalramdhani/Movie-Cast"
-                    previewUrl=""
+                    previewUrl="http://movie-cast.herokuapp.com"
                 />
             </div>
 
