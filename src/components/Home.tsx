@@ -19,7 +19,7 @@ export default function Home() {
             <div className="leading-loose">
                 <p className="mt-4">
                     Hello, I'm Noval Ramdhani an software engineering, Web programming enthusiast and
-                    Loving back end technologies.
+                    loving back end technologies.
                 </p>
                 <p className="mt-4">
                     I have social media like{" "}
@@ -39,7 +39,7 @@ export default function Home() {
                     If you want to know my activities on the internet.
                 </p>
                 <p className="mt-4">
-                    You can find all my programming lessons on{" "}
+                    You can find all my programming projects on{" "}
                     <a
                         href="https://github.com/novalramdhani"
                         className="text-sky-400 underline"
