@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
+import NotFound from "./components/NotFound";
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
             <Route path="/projects" element={<Projects />}>
                 Projects
             </Route>
+            <Route path="*" element={<NotFound/>} />
         </Routes>
     );
 }
